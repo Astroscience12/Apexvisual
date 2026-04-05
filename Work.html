@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Our Work</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Our Work</h1>
+
+<div class="gallery">
+  <img src="thumb1.jpg" onclick="playVideo('video1.mp4')">
+  <img src="thumb2.jpg" onclick="playVideo('video2.mp4')">
+</div>
+
+<div id="popup" class="popup">
+  <span onclick="closeVideo()" class="close">&times;</span>
+  <video id="player" controls autoplay></video>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
