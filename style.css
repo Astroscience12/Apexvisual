@@ -6,8 +6,32 @@
 }
 
 body{
-  background: linear-gradient(135deg,#0f172a,#1e293b);
-  color:#e2e8f0;
+  
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(
+    135deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45
+  );
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+  color:white;
+}
+
+/* animation */
+@keyframes gradientBG {
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+
 }
 
 /* NAV */
